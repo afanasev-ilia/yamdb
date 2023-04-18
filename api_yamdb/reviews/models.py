@@ -40,7 +40,7 @@ class User(AbstractUser):
         max_length=150,
         verbose_name='Фамилия',
     )
-    bio = models.TextField(blank=True, verbose_name='Наверное это биография:)')
+    bio = models.TextField(blank=True, verbose_name='Биография:)')
     role = models.CharField(
         choices=POSSIBLE_ROLES,
         default=USER,
