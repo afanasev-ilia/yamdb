@@ -13,7 +13,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', default='s3cr3t')
 
 ADMIN_EMAIL = 'from@example.com'
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
