@@ -1,5 +1,5 @@
 # api_yamdb
-
+![api_yamdb](https://github.com/LihieTapki/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 api_yamdb
 
 ## Описание
