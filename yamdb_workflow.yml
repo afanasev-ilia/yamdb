@@ -56,13 +56,11 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
+        passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          # Выполняет pull образа с DockerHub
-          sudo docker pull iafanasev/infra_actions
-          #остановка всех контейнеров
+          sudo docker pull iafanasev/api_yamdb-web
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 iafanasev/infra_actions
+          sudo docker run --rm -d -p 5000:5000 iafanasev/api_yamdb-web
 
   send_message:
     runs-on: ubuntu-latest

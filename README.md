@@ -1,6 +1,5 @@
 # api_yamdb
 ![api_yamdb](https://github.com/LihieTapki/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-api_yamdb
 
 ## Описание
 
@@ -78,5 +77,7 @@ DB_PORT=5432 # порт для подключения к БД
 ###### Авторы
 
 Архипов Владимир
+
 Афанасьев Илья
+
 Гринчар Николай
