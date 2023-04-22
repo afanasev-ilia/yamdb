@@ -60,7 +60,7 @@ docker-compose down -v
 Документация в формате Redoc:
 
 ```HTTP
-http://127.0.0.1:8000/redoc/
+http://158.160.105.132/redoc/
 ```
 
 ##### Шаблон наполнения .env
